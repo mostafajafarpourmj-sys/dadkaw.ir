@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دادکاو | قانون را ساده‌تر بشناسیم</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Tahoma, Arial, sans-serif;
+      background: #f7f8fa;
+      color: #20252b;
+      line-height: 2;
+    }
+
+    header {
+      background: #17324d;
+      color: white;
+      padding: 22px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 15px;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: white;
+      padding: 12px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #17324d;
+      margin: 0 10px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .hero {
+      max-width: 1000px;
+      margin: 35px auto;
+      padding: 45px 25px;
+      text-align: center;
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+    }
+
+    .hero h2 {
+      color: #17324d;
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      color: #555;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 10px 25px;
+      background: #b58b45;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 25px;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #17324d;
+      margin-bottom: 25px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px 20px;
+      border-radius: 14px;
+      box-shadow: 0 3px 15px rgba(0,0,0,0.06);
+    }
+
+    .card h3 {
+      color: #17324d;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      color: #666;
+      font-size: 14px;
+    }
+
+    #about, #contact {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 3px 15px rgba(0,0,0,0.06);
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #17324d;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    @media (max-width: 700px) {
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      header h1 {
+        font-size: 27px;
+      }
+
+      .hero h2 {
+        font-size: 23px;
+      }
+
+      nav a {
+        margin: 0 5px;
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>دادکاو</h1>
+    <p>قانون را ساده‌تر بشناسیم</p>
+  </header>
+
+  <nav>
+    <a href="#home">خانه</a>
+    <a href="#articles">مطالب حقوقی</a>
+    <a href="#about">درباره دادکاو</a>
+    <a href="#contact">ارتباط با ما</a>
+  </nav>
+
+  <div class="hero" id="home">
+    <h2>به دادکاو خوش آمدید</h2>
+    <p>
+      پایگاه دانش حقوقی دادکاو؛
+      مطالب حقوقی را ساده، دقیق و کاربردی دنبال کنید.
+    </p>
+
+    <a class="button" href="#articles">مشاهده مطالب حقوقی</a>
+  </div>
+
+  <section id="articles">
+    <h2>مطالب حقوقی</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>حقوق مدنی</h3>
+        <p>
+          مطالب آموزشی و کاربردی درباره قراردادها،
+          اموال، مالکیت، ارث و سایر موضوعات حقوق مدنی.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>حقوق خانواده</h3>
+        <p>
+          آشنایی ساده و کاربردی با موضوعات حقوقی
+          خانواده، مهریه، حضانت و مسائل مرتبط.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>مطالب کاربردی</h3>
+        <p>
+          نکات حقوقی مهم و کاربردی برای آگاهی بیشتر
+          از حقوق و تکالیف قانونی.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>درباره دادکاو</h2>
+    <p>
+      دادکاو با هدف آموزش و اطلاع‌رسانی حقوقی فعالیت می‌کند.
+      تلاش ما این است که مفاهیم و مطالب حقوقی را به زبانی
+      ساده، دقیق و قابل استفاده برای عموم ارائه کنیم.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>ارتباط با ما</h2>
+
+    <p>
+      برای دنبال کردن مطالب حقوقی دادکاو می‌توانید ما را
+      در شبکه‌های اجتماعی دنبال کنید.
+    </p>
+
+    <p style="margin-top:15px;">
+      📷 اینستاگرام:
+      <a href="https://instagram.com/Dadkaw.law" target="_blank">
+        Dadkaw.law
+      </a>
+    </p>
+
+    <p>
+      📱 تلگرام:
+      <a href="https://t.me/dadkaw_law" target="_blank">
+        Dadkaw_law
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    <p>دادکاو | قانون را ساده‌تر بشناسیم</p>
+    <p>🤝 باهم برای احقاق حقوق شهروندی</p>
+  </footer>
+
+</body>
+</html>
